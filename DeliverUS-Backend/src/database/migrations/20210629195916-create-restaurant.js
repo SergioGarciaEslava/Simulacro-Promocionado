@@ -77,6 +77,10 @@ module.exports = {
           key: 'id'
         }
       },
+      promoted: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false
+      },
       restaurantCategoryId: {
         allowNull: false,
         type: Sequelize.INTEGER,
